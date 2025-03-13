@@ -49,7 +49,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100vw;
-    height: 120svh;
+    height: 100svh;
     background-color: #000;
     clip-path: polygon(20% 20%, 80% 20%, 80% 80%, 20% 80%);
     will-change: transform, clip-path;
