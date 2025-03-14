@@ -95,3 +95,30 @@ gsap.to([".header span", ".coordinates span"], {
     ease: "power3.out",
     delay: 5.75,
 });
+
+gsap.to(".outro", {
+    display: "flex",
+    opacity: 1,
+    duration: 1,
+    delay: 5.5, 
+});
+
+
+gsap.to(".outro", {
+    display: "flex",
+    opacity: 1,
+    duration: 1,
+    delay: 5.5, 
+});
+
+gsap.fromTo(".outro p", 
+    { opacity: 0, scale: 0.8 },
+    { opacity: 1, scale: 1, duration: 1.5, ease: "power3.out", repeat: -1, yoyo: true }
+);
+
+
+
+
+
+
+

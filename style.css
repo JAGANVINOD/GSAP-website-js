@@ -17,6 +17,67 @@ p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+section{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.outro{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,#000000,#364549);
+    background-size: 200% 200%;
+}
+.outro p{
+    width: 75%;
+    text-align: center;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.525;
+    letter-spacing: -0.075rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.outro p span{
+    color: #69e3f3;
+}
+
+.icon{
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon_set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icon i{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.icon i:hover{
+    color: #4fcce2;
+}
+.text1 {
+    color: rgb(223, 218, 218);
+    font-size: 18px;
+    margin: 0;
+    padding-left: 750px; 
+    order: 1; 
+}
+
+   
 
 .hero {
     position: relative;
@@ -41,6 +102,9 @@ p {
     justify-content: space-between;
     align-items: center;
     color: #6bd86b;
+    width: 40vw;  
+    height: 100px;  
+    padding: 1.5em; 
 }
 
 .video-container {
